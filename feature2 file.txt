@@ -15,6 +15,22 @@ public class OddNumberCheck {
         }
     }
 }
+ this is my work 
+alternate way to fid even odd
+
+
+public class PrintOddNumbers {
+    public static void main(String[] args) {
+        int limit = 100;
+
+        System.out.println("Odd Numbers from 1 to " + limit + " are:");
+        for (int i = 1; i <= limit; i++) {
+            if (i % 2 != 0) { // Check if the number is odd
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
 this is teammates work-- both working on same file..!!
 public class GFG{
     public static void main(String[] args){
@@ -29,3 +45,5 @@ public class GFG{
         System.out.println("After swapping: m = " + m + ", n = " + n);
     }
 }
+
+
