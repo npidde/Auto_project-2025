@@ -1,0 +1,43 @@
+Write a java program to swap two numbers
+
+method 1- 
+
+public class GFG{
+    public static void main(String[] args){
+        
+        int m = 9, n = 5;
+        System.out.println("Before swapping: m = " + m + ", n = " + n);
+
+        int temp = m;
+        m = n;
+        n = temp;
+
+        System.out.println("After swapping: m = " + m + ", n = " + n);
+    }
+}
+
+method 2 -
+
+import java.io.*;
+
+// Driver Class
+public class SwapVariables {
+    // main function
+    public static void main(String[] args)
+    {
+        int a = 5;
+        int b = 10;
+
+        // print statement
+        System.out.println("Before swapping, a = " + a
+                           + " and b = " + b);
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("After swapping, a = " + a
+                           + " and b = " + b);
+    }
+}
+
