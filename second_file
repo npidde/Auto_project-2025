@@ -13,10 +13,8 @@ public class Main
 } 
  adding some line to create conflict
 just adding few details -- git add, commit and push
-<<<<<<< HEAD
-
-=======
 
 created new branch feature1..!
 
->>>>>>> acc9984578b2adeeff673e79a8447e5df32164ef
+doing changes in remote repo..!
+
