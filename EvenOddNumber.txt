@@ -1,9 +1,5 @@
-adding file in branch feature2 only 
-
-remote repoisitory changes 
-
-adding some random code-- treat this as your teammates work !!
-
+write a java program to find odd and even number
+method 1 -
 public class OddNumberCheck {
     public static void main(String[] args) {
         int number = 29; // Example number
@@ -15,10 +11,7 @@ public class OddNumberCheck {
         }
     }
 }
- this is my work 
-alternate way to fid even odd
-
-
+method 2 -
 public class PrintOddNumbers {
     public static void main(String[] args) {
         int limit = 100;
@@ -29,20 +22,6 @@ public class PrintOddNumbers {
                 System.out.print(i + " ");
             }
         }
-    }
-}
-this is teammates work-- both working on same file..!!
-public class GFG{
-    public static void main(String[] args){
-        
-        int m = 9, n = 5;
-        System.out.println("Before swapping: m = " + m + ", n = " + n);
-
-        int temp = m;
-        m = n;
-        n = temp;
-
-        System.out.println("After swapping: m = " + m + ", n = " + n);
     }
 }
 
