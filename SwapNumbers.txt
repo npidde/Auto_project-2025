@@ -1,7 +1,6 @@
 Write a java program to swap two numbers
 
 method 1- 
-
 public class GFG{
     public static void main(String[] args){
         
@@ -17,7 +16,6 @@ public class GFG{
 }
 
 method 2 -
-
 import java.io.*;
 
 // Driver Class

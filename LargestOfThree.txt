@@ -1,9 +1,7 @@
 Write a java program to find the largest of three numbers
 
 method 1- 
-
 import java.io.*;
-
 class GFG {
   
     static int biggestOfThree(int x, int y, int z)
