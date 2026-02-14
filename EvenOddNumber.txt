@@ -1,0 +1,28 @@
+write a java program to find odd and even number
+method 1 -
+public class OddNumberCheck {
+    public static void main(String[] args) {
+        int number = 29; // Example number
+
+        if (number % 2 != 0) { // If the remainder is not 0, it is odd
+            System.out.println(number + " is an odd number.");
+        } else {
+            System.out.println(number + " is an even number.");
+        }
+    }
+}
+method 2 -
+public class PrintOddNumbers {
+    public static void main(String[] args) {
+        int limit = 100;
+
+        System.out.println("Odd Numbers from 1 to " + limit + " are:");
+        for (int i = 1; i <= limit; i++) {
+            if (i % 2 != 0) { // Check if the number is odd
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
+
+
