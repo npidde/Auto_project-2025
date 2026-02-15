@@ -1,0 +1,19 @@
+Write a java program to reverse a String
+
+ method 1 -
+ public class ReverseStringExample {
+    public static void main(String[] args) {
+        String originalStr = "Hello World";
+        // Create a StringBuilder object from the original string
+        StringBuilder temp = new StringBuilder(originalStr);
+
+        // Use the reverse() method
+        temp.reverse();
+
+        // Convert the StringBuilder back to a String (if needed)
+        String reversedStr = temp.toString();
+
+        System.out.println("Original String: " + originalStr);
+        System.out.println("Reversed String: " + reversedStr); // Output: dlroW olleH
+    }
+}
