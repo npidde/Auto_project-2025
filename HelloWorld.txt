@@ -20,3 +20,6 @@ git stash practice
 adding few lines in the hello world file will stash first and then pull the remote changes and push my changes into remote.
 
 resolved the coflicts
+
+adding code from Nikita laptop
+hello hello..!!
